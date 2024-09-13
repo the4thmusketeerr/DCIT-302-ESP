@@ -1,0 +1,156 @@
+.children-child-boy-girl-1-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1442px;
+  	height: 352.2px;
+  	object-fit: cover;
+}
+.icon-parkdown {
+  	position: absolute;
+  	top: 972.03px;
+  	left: 690px;
+  	background-color: rgba(255, 255, 255, 0.01);
+  	width: 48px;
+  	height: 52.7px;
+  	overflow: hidden;
+}
+.group-child {
+  	position: absolute;
+  	top: 694.46px;
+  	left: 2px;
+  	width: 1440px;
+  	height: 401.5px;
+  	overflow: hidden;
+  	object-fit: cover;
+}
+.removebg-preview-1-icon {
+  	position: absolute;
+  	top: -24px;
+  	left: 130px;
+  	width: 227px;
+  	height: 153px;
+  	object-fit: cover;
+}
+.projects {
+  	position: absolute;
+  	top: 29px;
+  	left: 1022px;
+  	display: inline-block;
+  	width: 88px;
+  	height: 34px;
+}
+.our-stories {
+  	position: absolute;
+  	top: 28px;
+  	left: 894px;
+  	display: inline-block;
+  	width: 92px;
+  	height: 25px;
+}
+.gallery {
+  	position: absolute;
+  	top: 29px;
+  	left: 806px;
+  	display: inline-block;
+  	width: 88px;
+  	height: 34px;
+  	cursor: pointer;
+}
+.about-us1 {
+  	position: absolute;
+  	top: 29px;
+  	left: 705px;
+  	display: inline-block;
+  	width: 88px;
+  	height: 34px;
+}
+.donate-button-child {
+  	position: absolute;
+  	height: 76.23%;
+  	width: 82.41%;
+  	top: 0%;
+  	right: 17.59%;
+  	bottom: 23.77%;
+  	left: 0%;
+  	border-radius: 20px;
+  	background-color: #f777a7;
+  	overflow: hidden;
+}
+.donate {
+  	position: absolute;
+  	height: 89.43%;
+  	width: 81.46%;
+  	top: 16.98%;
+  	left: 20.44%;
+  	font-weight: 800;
+  	display: inline-block;
+}
+.donate-button {
+  	position: absolute;
+  	top: 20px;
+  	left: 1251px;
+  	width: 137px;
+  	height: 53px;
+}
+.navigation-bar {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background-color: rgba(247, 119, 167, 0);
+  	width: 1440px;
+  	height: 90px;
+  	overflow: hidden;
+}
+.navigation-bar-wrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background: linear-gradient(177.88deg, rgba(247, 119, 167, 0.82) 21.49%, #dd6b96 32.52%, #d1658d 47.34%, #d1658d 59.87%, #d1658d 69.76%, rgba(196, 95, 133, 0.8) 82.1%, rgba(221, 107, 150, 0.75) 90.32%, rgba(247, 119, 167, 0.77));
+  	width: 1442px;
+  	height: 1024.7px;
+  	overflow: hidden;
+}
+.about-us2 {
+  	position: absolute;
+  	top: calc(50% - 345.79px);
+  	left: calc(50% - 591px);
+  	font-size: 70px;
+  	font-weight: 800;
+  	display: inline-block;
+  	width: 377px;
+  	height: 151.4px;
+  	transform:  rotate(-0.2deg);
+  	transform-origin: 0 0;
+}
+.a-foundation-with {
+  	position: absolute;
+  	top: 364.24px;
+  	left: calc(50% - 608px);
+  	font-size: 26px;
+  	font-weight: 800;
+  	white-space: pre-wrap;
+  	text-align: center;
+  	display: inline-block;
+  	width: 641px;
+  	height: 660.5px;
+}
+.children-child-boy-girl-1-parent {
+  	position: absolute;
+  	top: 0px;
+  	left: -2px;
+  	width: 1442px;
+  	height: 1096px;
+}
+.about-us {
+  	width: 100%;
+  	position: relative;
+  	background-color: var(--color-white);
+  	height: 1025px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: var(--font-size-lg);
+  	color: var(--color-white);
+  	font-family: var(--font-lato);
+}
+

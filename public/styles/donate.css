@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ec699a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.donation-box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 300px;
+}
+
+.donation-box h2 {
+    font-size: 1.5rem;
+    color: #000;
+    margin-bottom: 1.5rem;
+}
+
+.donation-options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.donation-options button {
+    background-color: #f0f4fa;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.donation-options button:hover {
+    background-color: #e0e6ef;
+}
+
+.donation-options input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    grid-column: span 3;
+}
+
+.currency-dropdown {
+    margin-bottom: 1rem;
+}
+
+.currency-dropdown select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.donate-btn {
+    background-color: #ec699a;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.donate-btn:hover {
+    background-color: #d45782;
+}
+
+/* Styles remain the same, but add small adjustments */
+.payment-method {
+    margin: 1rem 0;
+}
+
+.payment-method label {
+    margin-right: 15px;
+}
+
+#payment-details input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

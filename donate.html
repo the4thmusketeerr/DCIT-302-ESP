@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Page</title>
+    <link rel="stylesheet" href="./public/styles/donate.css">
+</head>
+<body>
+    <script src="./public/scripts/app.js"></script> 
+    <div class="container">
+        <h1>Donate</h1>
+        <div class="donation-box">
+            <h2>Become a sponsor today</h2>
+            <div class="donation-options">
+                <button onclick="setAmount(250)">$250</button>
+                <button onclick="setAmount(120)">$120</button>
+                <button onclick="setAmount(50)">$50</button>
+                <button onclick="setAmount(20)">$20</button>
+                <button onclick="setAmount(10)">$10</button>
+                <button onclick="setAmount(5)">$5</button>
+                <input type="text" id="custom-amount" placeholder="$60">
+            </div>
+            <!-- <div class="currency-dropdown">
+                <select id="currency">
+                    <option value="USD">USD</option>
+                </select>
+            </div> -->
+            <h3>Choose Payment Method</h3>
+            <div class="payment-method">
+                <label>
+                    <input type="radio" name="payment" value="card" checked onclick="showPaymentFields('card')">
+                    Credit Card
+                </label>
+                <label>
+                    <input type="radio" name="payment" value="googlepay" onclick="showPaymentFields('googlepay')">
+                    Google Pay
+                </label>
+            </div>
+            <div id="payment-details">
+                <div id="card-details">
+                    <input type="text" id="card-name" placeholder="Cardholder Name">
+                    <input type="text" id="card-number" placeholder="Card Number">
+                    <input type="text" id="card-expiry" placeholder="Expiry Date (MM/YY)">
+                    <input type="text" id="card-cvv" placeholder="CVV">
+                </div>
+                <div id="googlepay-details" style="display: none;">
+                    <p>Google Pay will be used for this transaction.</p>
+                </div>
+            </div>
+            <button class="donate-btn" onclick="submitDonation()">Donate</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

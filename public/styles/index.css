@@ -1,0 +1,238 @@
+/* .logo {
+  	position: absolute;
+  	top: -24px;
+  	left: 130px;
+  	width: 227px;
+  	height: 123px;
+  	object-fit: cover;
+    padding-top: 10px;
+} */
+
+
+
+
+.projects {
+  	position: absolute;
+  	top: 29px;
+  	left: 1022px;
+  	display: inline-block;
+  	width: 88px;
+  	height: 34px;
+}
+.our-stories {
+  	position: absolute;
+  	top: 28px;
+  	left: 894px;
+  	display: inline-block;
+  	width: 92px;
+  	height: 25px;
+}
+.gallery {
+  	position: absolute;
+  	top: 29px;
+  	left: 806px;
+  	display: inline-block;
+  	width: 88px;
+  	height: 34px;
+}
+.about-us {
+  	position: absolute;
+  	top: 29px;
+  	left: 705px;
+  	display: inline-block;
+  	width: 88px;
+  	height: 34px;
+}
+
+
+
+.donate-button {
+  	/* position: absolute; */
+  	top: 20px;
+  	left: 1251px;
+  	width: 137px;
+  	height: 53px;
+  	color: var(--color-white);
+    background-color: #F777A7;
+    border: none;
+    border-radius: 34px;
+    margin-right: 37px;
+}
+
+.donate-button:hover{
+    color: #F777A7 ;
+    background-color: white;
+    border: solid;
+    border-color: #F777A7;
+}
+
+
+.navigation-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    /* padding: 10px 20px; */
+    /* height: 50px; */
+}
+
+
+.nav-links{
+    position: relative;
+    height: 100%;
+    width: 400px;
+    padding-right: 10px;
+}
+.nav-links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: black; /* Text color for links */
+    background-color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-wrap: nowrap;
+}
+
+.nav-links ul li a:hover{
+    color: #F777A7;
+}
+
+/* .children-child-boy-girl-1-icon {
+  	position: absolute;
+  	top: 168px;
+  	left: 15px;
+  	width: 1440px;
+  	height: 934px;
+  	object-fit: cover;
+}
+.group-child {
+  	position: absolute;
+  	top: 353px;
+  	left: 0px;
+  	background: linear-gradient(180deg, rgba(30, 30, 30, 0) 11.41%, rgba(247, 119, 167, 0.45) 55.7%, rgba(247, 119, 167, 0.76));
+  	width: 1455px;
+  	height: 777px;
+} */
+/* .every-child-deserves {
+  	position: absolute;
+  	top: calc(50% - 565px);
+  	left: calc(50% - 551.5px);
+  	font-weight: 800;
+  	display: inline-block;
+  	width: 1172px;
+  	height: 138px;
+} */
+
+.main-body {
+  	position: relative;
+    background-image:url('/public/images/children.png') ;
+    background-size: cover;
+    background-position: center;
+    width: 1455px;
+    height: 466px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+  	/* top: -78px;
+  	left: -15px;
+  	width: 1455px;
+  	height: 1130px;
+  	font-size: 70px; */
+}
+
+
+.main-body-text {
+  	position: relative;
+	text-wrap: wrap;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	left: -65px;
+  	/* top: 604px;
+  	left: calc(50% - 367.5px);
+  	font-size: 26px;
+  	font-weight: 800;
+  	white-space: pre-wrap;
+  	text-align: center;
+  	display: inline-block;
+  	width: 749px;
+  	height: 46px; */
+}
+
+.main-body-button{
+	background-color: #F777A7;
+	width: 107px;
+  	height: 53px;
+    background-color: #F777A7;
+    border: none;
+    border-radius: 34px;
+	color: white;
+    font-size: 15px;
+	font-weight: bold;
+}
+
+.main-body-button:hover{
+	background-color: #c48a9f;
+}
+
+/* .donate-buttonvariant2-child {
+  	position: absolute;
+  	height: 75.44%;
+  	width: 94.18%;
+  	top: 0%;
+  	right: 5.82%;
+  	bottom: 24.56%;
+  	left: 0%;
+  	border-radius: var(--br-xl);
+  	background-color: var(--color-palevioletred-100);
+  	overflow: hidden;
+}
+.about-us1 {
+  	position: absolute;
+  	top: 16px;
+  	left: calc(50% - 57px);
+  	font-weight: 800;
+  	display: inline-block;
+  	width: 114px;
+  	height: 22px;
+}
+.donate-buttonvariant2 {
+  	position: absolute;
+  	top: 631px;
+  	left: 639px;
+  	width: 146px;
+  	height: 79px;
+  	cursor: pointer;
+  	font-size: 24px;
+}
+.icon-parkdown {
+  	position: absolute;
+  	top: 976px;
+  	left: 688px;
+  	width: 48px;
+  	height: 48px;
+  	overflow: hidden;
+} */
+.home {
+  	width: 100%;
+  	position: relative;
+  	background-color: var(--color-white);
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: var(--font-size-lg);
+  	color: var(--color-white);
+  	font-family: var(--font-lato);
+}
+

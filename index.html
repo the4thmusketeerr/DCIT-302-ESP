@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./public/styles/global.css" />
+    <link rel="stylesheet" href="./public/styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700;800&display=swap"
+    />
+    <title>Peace & Grace Foundation</title>
+  </head>
+  <body>
+    <div class="home">
+
+
+      <div class="navigation-bar">
+        <div class="logo">
+          <a href="#"><img src="./public/images/logo.png" /></a>
+        </div>
+
+        <div class="nav-links">
+          <ul>
+			<li><a href="/projects.html">Projects</a></li>
+			<li><a href="/stories.html">Our Stories</a></li>
+			<li><a href="/gallery.html">Gallery</a></li>
+			<li><a href="/about.html">About Us</a></li>
+          </ul> 
+        </div>
+
+		<button class="donate-button" onclick="directdonate()">Donate</button>
+
+      </div>
+
+	  <div class="main-body">
+         <h3 class="main-body-text">
+          A foundation with the soul aim of bettering the lives of individuals
+          globally while leading them to Christ
+		</h3>
+		<button class="main-body-button" onclick='direct()' >About us</button>
+	  </div>
+
+      
+
+
+    </div> 
+
+    <script>
+      function direct() {
+        window.location.href = "/about.html";
+      }
+
+      function directdonate() {
+        window.location.href = "/donate.html";
+      }
+    </script>
+
+  </body>
+</html>

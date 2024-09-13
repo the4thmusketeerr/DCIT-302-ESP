@@ -1,0 +1,189 @@
+.gallery1 {
+  	position: absolute;
+  	top: calc(50% - 417px);
+  	left: calc(50% - 130.5px);
+  	font-weight: 800;
+  	display: inline-block;
+  	width: 261.5px;
+  	height: 151.4px;
+  	transform:  rotate(-0.2deg);
+  	transform-origin: 0 0;
+}
+.frame-child {
+  	position: absolute;
+  	top: 112px;
+  	left: 46px;
+  	width: 304px;
+  	height: 361px;
+  	overflow: hidden;
+  	object-fit: cover;
+}
+.frame-item {
+  	position: absolute;
+  	top: 112px;
+  	left: 379px;
+  	width: 261px;
+  	height: 153px;
+  	overflow: hidden;
+  	object-fit: cover;
+}
+.frame-inner {
+  	position: absolute;
+  	top: 297px;
+  	left: 379px;
+  	width: 261px;
+  	height: 258px;
+  	overflow: hidden;
+  	object-fit: cover;
+}
+.frame-icon {
+  	position: absolute;
+  	top: 581px;
+  	left: 373px;
+  	width: 259px;
+  	height: 199px;
+  	overflow: hidden;
+  	object-fit: cover;
+}
+.ae3b340c5afcdf200aac7e5ff4b87b-icon {
+  	position: absolute;
+  	top: 510px;
+  	left: 46px;
+  	width: 304px;
+  	height: 270px;
+  	object-fit: cover;
+}
+.a33d8c5ad5ea5d0a27e330b8c38484-icon {
+  	position: absolute;
+  	top: 114px;
+  	left: 1015px;
+  	width: 238px;
+  	height: 396px;
+  	object-fit: cover;
+}
+.acb7d06d0e1a495c1374e29dda11ea-icon {
+  	position: absolute;
+  	top: 538px;
+  	left: 1012px;
+  	width: 244px;
+  	height: 242px;
+  	object-fit: cover;
+}
+.acb7d06d0e1a495c1374e29dda11ea-icon1 {
+  	position: absolute;
+  	top: 121px;
+  	left: 683px;
+  	width: 285px;
+  	height: 381px;
+  	object-fit: cover;
+}
+.cf8b4929a26a37e52df7b9850005e0-icon {
+  	position: absolute;
+  	top: 538px;
+  	left: 683px;
+  	width: 300px;
+  	height: 242px;
+  	object-fit: cover;
+}
+.gallery-parent {
+  	position: absolute;
+  	top: 131px;
+  	left: 72px;
+  	border-radius: 14px;
+  	width: 1295px;
+  	height: 834px;
+  	overflow: hidden;
+}
+.removebg-preview-1-icon {
+  	position: absolute;
+  	top: -24px;
+  	left: 130px;
+  	width: 227px;
+  	height: 153px;
+  	object-fit: cover;
+}
+.projects {
+  	position: absolute;
+  	top: 29px;
+  	left: 1022px;
+  	display: inline-block;
+  	width: 88px;
+  	height: 34px;
+}
+.our-stories {
+  	position: absolute;
+  	top: 28px;
+  	left: 894px;
+  	display: inline-block;
+  	width: 92px;
+  	height: 25px;
+}
+.gallery2 {
+  	position: absolute;
+  	top: 29px;
+  	left: 806px;
+  	display: inline-block;
+  	width: 88px;
+  	height: 34px;
+  	cursor: pointer;
+}
+.about-us {
+  	position: absolute;
+  	top: 29px;
+  	left: 705px;
+  	display: inline-block;
+  	width: 88px;
+  	height: 34px;
+}
+.donate-button-child {
+  	position: absolute;
+  	height: 76.23%;
+  	width: 82.41%;
+  	top: 0%;
+  	right: 17.59%;
+  	bottom: 23.77%;
+  	left: 0%;
+  	border-radius: 20px;
+  	background-color: #f777a7;
+  	overflow: hidden;
+}
+.donate {
+  	position: absolute;
+  	height: 89.43%;
+  	width: 81.46%;
+  	top: 16.98%;
+  	left: 20.44%;
+  	font-weight: 800;
+  	display: inline-block;
+}
+.donate-button {
+  	position: absolute;
+  	top: 20px;
+  	left: 1251px;
+  	width: 137px;
+  	height: 53px;
+  	color: var(--color-white);
+}
+.navigation-bar {
+  	position: absolute;
+  	top: 2px;
+  	left: 0px;
+  	background-color: rgba(247, 119, 167, 0);
+  	width: 1440px;
+  	height: 90px;
+  	overflow: hidden;
+  	font-size: var(--font-size-lg);
+  	color: var(--color-black);
+}
+.gallery {
+  	width: 100%;
+  	position: relative;
+  	background-color: var(--color-white);
+  	height: 1025px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 60px;
+  	color: #dd6b96;
+  	font-family: var(--font-lato);
+}
+

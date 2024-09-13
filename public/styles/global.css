@@ -1,0 +1,24 @@
+
+body {
+  	margin: 0;
+  	line-height: normal;
+}
+
+
+:root {
+  	
+  	/* fonts */
+  	--font-lato: Lato;
+  	
+  	/* font sizes */
+  	--font-size-lg: 18px;
+  	
+  	/* Colors */
+  	--color-white: #fff;
+  	--color-palevioletred-100: #f777a7;
+  	--color-black: #000;
+  	
+  	/* Border radiuses */
+  	--br-xl: 20px;
+  	
+}
